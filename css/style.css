@@ -6,12 +6,43 @@
 
 .flex-container {
   display: flex;
-  flex-direction: row;
-  width: 100vh;
-  height:100%; 
-}
-
-.flex-item {
+  flex-direction: column;
+  height:200px;
   border: 1px solid black;
+  flex-basis: 100%;
+  background-image: linear-gradient(to right bottom, rgb(18, 18, 18), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
+}
+h2{
+  color: white;
+  font-size: 30px;
+}
+.flex-item{
+  justify-content: center;
+  flex-basis: 100%;
+  display: flex;
+}
+.contenuto1 ul, a{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 15px;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.contenuto1 a:hover{
+  opacity: none;
+  color: white;
 
+}
+.contenuto1 li{
+  margin: 20px;
+  margin-top: 40px;
+  list-style-type: none;
+}
+.contenuto2 .contenuto3{
+  margin-right: 725px;
+}
+.contenuto3 img{
+  width: 100px;
+  height: 100px;
 }
