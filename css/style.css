@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vh;
+  height:100%; 
+}
+
+.flex-item {
+  border: 1px solid black;
+
+}
