@@ -17,10 +17,12 @@ h2{
   font-size: 30px;
 }
 .flex-item{
-  justify-content: center;
   flex-basis: 100%;
-  display: flex;
   height: 200px;
+}
+.contenuto1{
+  justify-content: center;
+  display: flex;
 }
 .contenuto1 ul, a{
   display: flex;
@@ -29,6 +31,8 @@ h2{
   font-size: 15px;
   opacity: 0.5;
   text-decoration: none;
+
+
 }
 .contenuto1 a:hover{
   opacity: none;
@@ -41,16 +45,28 @@ h2{
   list-style-type: none;
 }
 .contenuto2{
-  margin-right: 725px;
   margin-top: 20px;
+  justify-content: flex-start;
+  display: flex;
+  margin-left: 15%; a*debug*a
 }
 .contenuto3{
   display:flex;
-  margin-top: 40px;
-
+  justify-content:center;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .contenuto3 img{
-  width: 100px;
-  height: 100px;
-  
+  width: 110px;
+  height: 110px;
+  margin: 20px;
+  border-radius: 50px;
+}
+#norotondo{
+  border-radius: 0;
+}
+#sinistra{
+align-self: flex-start;
+display: flex;
 }
