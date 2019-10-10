@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+}
 
 .flex-container {
   display: flex;
@@ -11,6 +14,7 @@
   border: 1px solid black;
   flex-basis: 100%;
   background-image: linear-gradient(to right bottom, rgb(18, 18, 18), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
+  overflow: scroll;
 }
 h2{
   color: white;
@@ -18,7 +22,6 @@ h2{
 }
 .flex-item{
   flex-basis: 100%;
-  height: 200px;
 }
 .contenuto1{
   justify-content: center;
@@ -28,7 +31,7 @@ h2{
   display: flex;
   flex-direction: row;
   color: white;
-  font-size: 15px;
+  font-size: 10px;
   opacity: 0.5;
   text-decoration: none;
 
@@ -40,24 +43,22 @@ h2{
 
 }
 .contenuto1 li{
-  margin: 20px;
   margin-top: 40px;
   list-style-type: none;
 }
 .contenuto2{
-  margin-top: 20px;
   justify-content: flex-start;
   display: flex;
-  margin-left: 15%; a*debug*a
+  margin-left: 15%;*a a*debug*a
 }
 .contenuto3{
   display:flex;
-  justify-content:center;
+
   flex-wrap: wrap;
   margin-left: 15%;
   margin-right: 15%;
 }
-.contenuto3 img{
+.contenuto3 img, a{
   width: 110px;
   height: 110px;
   margin: 20px;
@@ -69,4 +70,8 @@ h2{
 #sinistra{
 align-self: flex-start;
 display: flex;
+}
+.img p{
+  color: white;
+  text-align: center;
 }
