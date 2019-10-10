@@ -40,10 +40,17 @@ h2{
   margin-top: 40px;
   list-style-type: none;
 }
-.contenuto2 .contenuto3{
+.contenuto2{
   margin-right: 725px;
+  margin-top: 20px;
+}
+.contenuto3{
+  display:flex;
+  margin-top: 40px;
+
 }
 .contenuto3 img{
   width: 100px;
   height: 100px;
+  
 }
