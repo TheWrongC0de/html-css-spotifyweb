@@ -9,12 +9,56 @@ body{
 
 .flex-container {
   display: flex;
-  flex-direction: column;
-  height:100%;
   border: 1px solid black;
   flex-basis: 100%;
-  background-image: linear-gradient(to right bottom, rgb(18, 18, 18), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
+  background:linear-gradient(to right bottom, rgb(18, 18, 18), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
+}
+.left{
+  display: flex;
+  justify-content: center;
+  background:linear-gradient(to right bottom, rgb(18, 18, 18), rgb(0, 0, 0)), linear-gradient(transparent, rgb(0, 0, 0) 70%);
+  padding: 30px;
+  position: fixed;
+}
+.left a{
+  font-size: 15px;
+  margin-left: 10px;
+  width: 200px;
+  height: 50px;
+  }
+.img{
+  display: flex;
+  flex-direction: column;
+}
+.img img{
+  width: 100px;
+  height: 50px;
+}
+
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.logo p{
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.opzioni a{
+  height: 15px;
+}
+.padre{
+  flex-direction: column;
+  display: flex;
   overflow: scroll;
+  background-color: blue;
+  opacity: 1;
+  margin-left: 15%;
+
+
 }
 h2{
   color: white;
@@ -53,7 +97,6 @@ h2{
 }
 .contenuto3{
   display:flex;
-
   flex-wrap: wrap;
   margin-left: 15%;
   margin-right: 15%;
