@@ -34,6 +34,15 @@ body{
   width: 100px;
   height: 50px;
 }
+.omino{
+  display: flex;
+  flex-direction: row;
+}
+
+.omino img{
+  width: 30px;
+  height: 30px;
+}
 
 }
 .logo{
@@ -50,6 +59,16 @@ body{
 .opzioni a{
   height: 15px;
 }
+.freccia{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.freccia img{
+  width: 30px;
+  height: 30px;
+}
+
 .padre{
   flex-direction: column;
   display: flex;
@@ -117,4 +136,40 @@ display: flex;
 .img p{
   color: white;
   text-align: center;
+}
+.down{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 70px;
+  width: 100%;
+  background-color: grey;
+
+}
+.monstercat img{
+  width: 50px;
+  height: 50px;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.brano{
+  display: flex;
+  flex-direction: column;
+}
+.brano h6{
+  margin-top: 25px;
+  margin-left: 10px;
+  color: white;
+}
+.brano p{
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: darkgrey;
+}
+.down img{
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+
 }
